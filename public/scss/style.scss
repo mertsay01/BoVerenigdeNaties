@@ -1,2 +1,6 @@
 @use 'reset';
-@use 'colors';
+@use './sections/header';
+@use './sections/sdgsection';
+@use './sections/ctasection';
+@use './sections/footer';
+
