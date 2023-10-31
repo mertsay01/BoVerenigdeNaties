@@ -17,6 +17,7 @@ a, a:visited, a:link {
 body {
   font-size: 2rem;
   background: #5B92E5;
+  font-family: "Segoe UI", Arial, sans-serif;
 }
 
 .nav__img {
