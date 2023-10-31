@@ -1,11 +1,56 @@
 @use '../colors';
 @use '../fonts';
 
-.footer{
+footer{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50rem;
+    padding-right: 50rem;
+    height: 40rem;
+    background-color: black;
+}
+
+.logo_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+}
+
+.footer-div{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    border:0.5rem solid white;
+}
+
+.logo-f{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.footer__text{
+    color: white;
+}
+
+.icon_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 40rem;
+}
+
+.footer-icons{
+    width: 10rem;
 }
 
 
+<<<<<<< HEAD
 .footer-top{
     height: 50rem;
     
@@ -43,3 +88,7 @@
   height: 8rem;
   
 }
+=======
+
+
+>>>>>>> 9d081b5939d92d11efef049221a5b531d51bff91

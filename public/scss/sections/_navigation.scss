@@ -16,13 +16,27 @@
     top: 0;
     left: 0;
     text-transform: uppercase;
+<<<<<<< HEAD
 
+=======
+    z-index: 1;
+    font-family: sans-serif;
+}
+
+.nav__h2{
+    font-size: 250%;
+>>>>>>> 9d081b5939d92d11efef049221a5b531d51bff91
 }
 
 
 .nav__logo{
     width: 15rem;
     height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 10rem;
 }
 
 .nav__img{
@@ -34,4 +48,8 @@
     display: flex;
     list-style: none;
     gap: 5rem;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 9d081b5939d92d11efef049221a5b531d51bff91
