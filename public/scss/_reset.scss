@@ -1,5 +1,7 @@
 @use 'colors';
 
+@use 'fonts';
+
 * {
     margin: 0;
     padding: 0;
@@ -7,21 +9,22 @@
   }
 
 
-  html{
+html{
     font-size: 62.5%;
     scroll-behavior: smooth;
-  }
+}
 
-  a, a:visited , a:link{
+a, a:visited , a:link{
     color: #eee;
     text-decoration: none;
 }
 
 
-  body{
-    font-size: 2rem;
-    background: colors.$body;
-  }
+body{
+  font-size: 2rem;
+  background: colors.$body;
+  font-family: fonts.$font;
+}
   
 
   
