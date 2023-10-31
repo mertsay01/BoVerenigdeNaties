@@ -1,31 +1,34 @@
 @use '../colors';
 @use '../fonts';
 
-.ctaSection{
+.sdgdescription{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height:70rem;
-    background: green;
+    background: white;
     gap: 2rem;
     flex-wrap: wrap;
 }
 
-.cta__item{
-    height: 40rem;
-    width: 110rem;
-    background-color: colors.$danger-color;
-    border-radius: 0.5rem;
+.sdgd__div{
+    height: 50rem;
+    width: 150rem;
     display: flex;
-    justify-content: flex-end;
     align-items: flex-end;
+    flex-direction: column;
+    gap: 4rem;
 }
 
-.cta__button{
-    height: 10rem;
-    width:30rem;
-    margin: 4rem;
-    border-radius: 0.5rem;
+.sdgd__p{
     font-size: 2rem;
+}
+
+.sdgd__divimg{
+    height: 10rem;
+    width: 20rem;
+    background-color: black;
+    border-radius: 0.5rem;
+    margin: 3rem;
 }
