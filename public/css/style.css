@@ -135,6 +135,49 @@ body {
   margin: 3rem;
 }
 
-.footer {
-  display: flex;
-}/*# sourceMappingURL=style.css.map */
+footer{
+
+}
+.footer-top{
+height: 50rem;
+
+}
+.logo-f{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+
+
+}
+.b-footer{
+    height: 14rem;
+    border-top: 1px solid rgb(238, 238, 238);
+    display: flex;
+    padding-left: 11rem;
+    padding-right:11rem;
+    justify-content: space-between;
+    align-items: center;
+
+}
+main{
+    height: 70rem;
+}
+
+.red-hov:hover{
+    color: #3C6BAC;
+}
+
+.footer-icons{
+    height: 3rem;
+    width: auto;
+}
+
+.footer-fig{
+  width: 8rem;
+  height: 8rem;
+  
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
