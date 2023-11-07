@@ -1,3 +1,6 @@
+<?php
+ include("../source/views/makePage.php");
+?>
 <!DOCTYPE html>
 <html lang="nl">
   <head>
@@ -26,7 +29,11 @@
     
     <section class="ctaSection"></section>
 
-    <section class="sdgdescription"></section>
+    <section class="sdgdescription">
+      <h1></h1>
+      <p></p>
+      <img src="" alt="">
+    </section>
 
     <footer class="footer"></footer>
   </body>
