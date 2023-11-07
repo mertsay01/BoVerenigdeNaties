@@ -256,4 +256,17 @@ main{
   height: 100%;
 }
 
+.page__title{
+
+}
+
+.page__text{
+
+}
+
+.page__img{
+  width: 40rem;
+  height: 40rem;
+}
+
 /*# sourceMappingURL=style.css.map */
