@@ -116,7 +116,7 @@ body {
 
 .cta__item {
   height: 40rem;
-  width: 110rem;
+  width: 80vw;
   background-color: #dc3545;
   border-radius: 0.5rem;
   display: flex;
@@ -126,7 +126,7 @@ body {
 
 .cta__button {
   height: 10rem;
-  width: 30rem;
+  width: 10%;
   margin: 4rem;
   border-radius: 0.5rem;
   font-size: 2rem;
